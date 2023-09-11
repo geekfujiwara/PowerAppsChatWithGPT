@@ -1,0 +1,23 @@
+App As appinfo:
+    BackEnabled: =false
+    OnStart: |-
+        =// 初期メッセージの宣言
+        ClearCollect(_messages,{role:"assistant",content:"こんにちは！何かお手伝いできることはありますか？"});
+        
+        //ユーザープロフィール画像の取得
+        Set(_MyPhoto, Office365ユーザー.UserPhotoV2(User().Email));
+        
+        //API Version ドロップダウン
+        ClearCollect(_apiversion, {Value: "2023-05-15"}, {Value: "2023-03-15-preview"}, {Value: "2022-12-01"});
+        
+        //検索モード
+        ClearCollect(_searchMode, {Value: "一般知識"},{Value: "社内検索"},{Value: "Dataverse"});
+    Theme: =PowerAppsTheme
+
+    Host As hostControl.DefaultHostControlVariant:
+        OnCancel: =false
+        OnEdit: =false
+        OnNew: =false
+        OnSave: =false
+        OnView: =false
+

@@ -1,0 +1,98 @@
+[
+  {
+    "CdsFCBContext": "{\"FileType\":true,\"ImageExternalStorage\":true}",
+    "EntitySetName": "geek_chattitles",
+    "IsHidden": false,
+    "IsSampleData": false,
+    "IsWritable": true,
+    "LogicalName": "geek_chattitle",
+    "MaxGetRowsCount": 500,
+    "Name": "Chat title",
+    "NativeCDSDataSourceInfoNameMapping": {
+      "_ownerid_value": "所有者",
+      "createdby": "作成者",
+      "createdon": "作成日",
+      "createdonbehalfby": "作成者 (代理)",
+      "geek_chattitle_AsyncOperations": "システム ジョブ ",
+      "geek_chattitle_BulkDeleteFailures": "一括削除の失敗 ",
+      "geek_chattitle_DuplicateBaseRecord": "レコードの重複  (geek_chattitle_DuplicateBaseRecord)",
+      "geek_chattitle_DuplicateMatchingRecord": "レコードの重複  (geek_chattitle_DuplicateMatchingRecord)",
+      "geek_chattitle_MailboxTrackingFolders": "メールボックス自動追跡フォルダー",
+      "geek_chattitle_PrincipalObjectAttributeAccesses": "フィールド共有 ",
+      "geek_chattitle_ProcessSession": "プロセス セッション",
+      "geek_chattitle_SyncErrors": "同期エラー",
+      "geek_chattitleid": "Chat title",
+      "geek_geek_chatmessage_Chattitle_geek_chattitle": "Chat message",
+      "geek_title": "Title",
+      "importsequencenumber": "インポート シーケンス番号",
+      "modifiedby": "修正者",
+      "modifiedon": "修正日",
+      "modifiedonbehalfby": "修正者 (代理)",
+      "overriddencreatedon": "レコード作成日",
+      "owningbusinessunit": "所属部署",
+      "owningteam": "所有チーム",
+      "owninguser": "所有ユーザー",
+      "statecode": "状態",
+      "statuscode": "ステータス",
+      "timezoneruleversionnumber": "タイム ゾーン規則のバージョン番号",
+      "utcconversiontimezonecode": "UTC 変換タイム ゾーン コード",
+      "versionnumber": "バージョン番号"
+    },
+    "PreferredName": "Chat title",
+    "Type": "NativeCDSDataSourceInfo"
+  },
+  {
+    "DisplayName": "Chat title (ビュー)",
+    "Name": "_geek_chattitle_views",
+    "RelatedEntityName": "Chat title",
+    "TrimmedViewName": true,
+    "Type": "ViewInfo",
+    "ViewInfoNameMapping": {
+      "362c7d3f-98f8-41ca-aa9f-5ba691982303": "非アクティブなChat title",
+      "73e59333-505c-4586-b6a8-2e1f6486ae03": "Chat titleの高度な検索ビュー",
+      "ce7dc188-678d-489b-9674-51331a24f6b6": "アクティブなChat title",
+      "de88dc19-6f22-411f-bce4-0f5e59da47dd": "Chat title検索ダイアログ ビュー",
+      "e387c288-fe7f-45cf-a7b4-3d8ebcdfe45f": "Chat title関連ビュー"
+    }
+  },
+  {
+    "DisplayName": "状態 (Chat title)",
+    "Name": "geek_chattitle_statecode",
+    "OptionSetInfoNameMapping": {
+      "0": "アクティブ",
+      "1": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statecode",
+        "OptionSetReferenceEntityName": "Chat title"
+      }
+    },
+    "OptionSetTypeKey": "StateType",
+    "RelatedColumnInvariantName": "statecode",
+    "RelatedEntityName": "Chat title",
+    "Type": "OptionSetInfo"
+  },
+  {
+    "DisplayName": "ステータス (Chat title)",
+    "Name": "geek_chattitle_statuscode",
+    "OptionSetInfoNameMapping": {
+      "1": "アクティブ",
+      "2": "非アクティブ"
+    },
+    "OptionSetIsBooleanValued": false,
+    "OptionSetIsGlobal": false,
+    "OptionSetReference": {
+      "OptionSetReferenceItem0": {
+        "OptionSetReferenceColumnName": "statuscode",
+        "OptionSetReferenceEntityName": "Chat title"
+      }
+    },
+    "OptionSetTypeKey": "StatusType",
+    "RelatedColumnInvariantName": "statuscode",
+    "RelatedEntityName": "Chat title",
+    "Type": "OptionSetInfo"
+  }
+]

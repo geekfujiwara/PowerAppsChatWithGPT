@@ -1,0 +1,10 @@
+[
+  {
+    "ApiId": "/providers/microsoft.powerapps/apis/shared_logicflows",
+    "FlowNameId": "db16ddb6-10ac-40cb-9c4d-2b13fa54b1ab",
+    "Name": "AzureOpenAI_GPT35Tフロー",
+    "ServiceKind": "ConnectedWadl",
+    "Type": "ServiceInfo",
+    "WorkflowEntityId": null
+  }
+]

@@ -1,0 +1,51 @@
+{
+  "QualifiedValues": [
+    {
+      "Kind": "default.cds_systemuser_forms",
+      "Namespace": "ユーザー  (フォーム)",
+      "Values": {
+        "アプリケーション ユーザー": "d26924ef-4d80-46f7-ab1d-e6ae80a54ce8",
+        "ユーザー": "c2cd9e55-d4b4-4b55-9951-16ead79643e5",
+        "ユーザー  メイン フォーム": "2a768210-2a5d-ed11-9562-002248684c7e",
+        "ユーザー フォーム – ビジネス": "c2413504-7eb2-4c59-a087-95d819866114",
+        "ユーザー階層のタイル フォーム": "c68d6c09-d7a7-4959-8d0f-44b8cff9b452",
+        "情報": "094fb08a-77bb-49e0-b7ea-8dbddfd01294"
+      }
+    },
+    {
+      "Kind": "default.cds_geek_chattitle_forms",
+      "Namespace": "Chat title (フォーム)",
+      "Values": {
+        "情報": "083ed369-0d69-4f6a-83c1-d5a8be3b1383"
+      }
+    },
+    {
+      "Kind": "default.cds_geek_chatmessage_forms",
+      "Namespace": "Chat message (フォーム)",
+      "Values": {
+        "情報": "a6effc2b-17c6-42a4-bfb8-aa30cb71f360"
+      }
+    },
+    {
+      "Kind": "default.cds_crc79_chatdata_forms",
+      "Namespace": "ChatData (フォーム)",
+      "Values": {
+        "情報": "69bc9b61-8279-4656-a21c-ced339dea45d"
+      }
+    },
+    {
+      "Kind": "default.cds_crc79_chathistory_forms",
+      "Namespace": "ChatHistory (フォーム)",
+      "Values": {
+        "情報": "48fcfd3d-bf53-49d5-905c-f49f7da42342"
+      }
+    },
+    {
+      "Kind": "default.cds_crc79_chatlog_forms",
+      "Namespace": "ChatLog (フォーム)",
+      "Values": {
+        "情報": "6897fc1c-13f1-41c6-854c-f0bdadde82b7"
+      }
+    }
+  ]
+}
