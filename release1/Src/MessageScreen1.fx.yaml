@@ -60,7 +60,6 @@
                 Font: =Font.'Segoe UI'
                 FontWeight: =FontWeight.Bold
                 Height: =Parent.Height
-                Size: =20
                 Text: ="GeekGPTBot"
                 ZIndex: =2
 
