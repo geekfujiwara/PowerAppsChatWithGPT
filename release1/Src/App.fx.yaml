@@ -12,6 +12,8 @@ App As appinfo:
         
         //検索モード
         ClearCollect(_searchMode, {Value: "一般知識"},{Value: "社内検索"},{Value: "Dataverse"});
+        
+        Set(_demo, 1)
     Theme: =PowerAppsTheme
 
     Host As hostControl.DefaultHostControlVariant:
